@@ -1,0 +1,12 @@
+package study;
+
+public class Main {
+	public static void main(String args[]) {
+		addExclamationPoint("Yo");
+	}
+	
+	public static void addExclamationPoint(String s) {
+		System.out.println(s + "!");
+	}
+	
+}
