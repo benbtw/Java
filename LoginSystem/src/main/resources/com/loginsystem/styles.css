@@ -1,0 +1,10 @@
+#Hero {
+    -fx-background-color: #222222;
+}
+
+#loginBox {
+    -fx-background-color: white;
+    -fx-margin: auto;
+    -fx-text-align: center;
+    -fx-background-radius: 10;
+}
