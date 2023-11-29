@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Hero" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.loginsystem.Controller" stylesheets="@styles.css">
+   <children>
+      <AnchorPane fx:id="loginBox" layoutX="152.0" layoutY="47.0" prefHeight="306.0" prefWidth="297.0">
+         <children>
+            <Label fx:id="Title" alignment="CENTER" contentDisplay="CENTER" layoutX="89.0" layoutY="14.0" prefHeight="53.0" prefWidth="119.0" text="Sign Up">
+               <font>
+                  <Font name="Calibri" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="createBTN" layoutX="100.0" layoutY="243.0" mnemonicParsing="false" onAction="#CreateBTNPress" text="Create Account" />
+            <PasswordField fx:id="passField" layoutX="74.0" layoutY="141.0" promptText="Password: " />
+            <TextField fx:id="emailField" layoutX="75.0" layoutY="93.0" promptText="Email: " />
+            <Label fx:id="txtBoxLBL" layoutX="75.0" layoutY="76.0" text="Email" />
+            <Label fx:id="txtBoxLBL" layoutX="74.0" layoutY="124.0" text="Password" />
+            <PasswordField fx:id="passFieldCon" layoutX="75.0" layoutY="188.0" promptText="Password: " />
+            <Label fx:id="txtBoxLBL1" layoutX="75.0" layoutY="171.0" text="Enter password again" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
